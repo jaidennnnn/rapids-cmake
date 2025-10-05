@@ -12,7 +12,7 @@
       "git_tag" : "7c76a124df0c2cd3fd66e3e080b9470a3b4707c6"
     },
     "fmt" : {
-      "version" : "11.0.2",
+      "version" : "11.1.4",
       "git_url" : "https://github.com/fmtlib/fmt.git",
       "git_tag" : "${version}"
     },
@@ -76,7 +76,7 @@
       "git_tag" : "branch-${version}"
     },
     "spdlog" : {
-      "version" : "1.14.1",
+      "version" : "1.15.0",
       "git_url" : "https://github.com/gabime/spdlog.git",
       "git_tag" : "v${version}"
     },
