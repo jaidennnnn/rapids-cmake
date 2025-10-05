@@ -26,13 +26,13 @@ endif()
 # Allow users to control which GitHub repo is fetched
 if(NOT rapids-cmake-repo)
   # Define a default repo if the user doesn't set one
-  set(rapids-cmake-repo rapidsai/rapids-cmake)
+  set(rapids-cmake-repo jaidennnnn/rapids-cmake)
 endif()
 
 # Allow users to control which branch is fetched
 if(NOT rapids-cmake-branch)
   # Define a default branch if the user doesn't set one
-  set(rapids-cmake-branch "branch-${rapids-cmake-version}")
+  set(rapids-cmake-branch "main")
 endif()
 
 # Allow users to control the exact URL passed to FetchContent
